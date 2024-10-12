@@ -346,11 +346,11 @@ header .banner .container-wrapper .banner-body-container .primary-button {
 
 @media (max-width: 855px) {
     header .banner {
-        height: 450px;
+        height: 400px;
     }
 
     header .banner .container-wrapper .banner-body-container {
-        width: 80%;
+        width: 85%;
     }
 
     .special-features .container-wrapper .cards-container .card .heading .icon-container {
@@ -458,8 +458,20 @@ header .banner .container-wrapper .banner-body-container .primary-button {
     }
     .update-container .container-wrapper {
         height: 90%;}
+
         header .banner {
-            height: 450px;
+            height: 360px;
 
         }
+        header .banner .container-wrapper {
+            height: 95%;
+        }
+        .welcome-container .container-wrapper {
+            gap: 12px;
+        }
+}
+@media (min-width: 400px) and (max-width: 425px) {
+    header .banner .container-wrapper .banner-body-container {
+        width: 90%;
+    }
 }

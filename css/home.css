@@ -1175,7 +1175,28 @@ header .banner .container-wrapper .banner-body-container .scaner {
 
 }
 
-@media (min-width: 425px) and (max-width: 767px) {
+@media (max-width: 434px) {
+    .fs-64-semibold {
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+    .fs-40 {
+        font-size: 26px;
+    }
+
+    header .banner {
+        height: 350px;
+    }
+
+    header .banner .container-wrapper .banner-body-container {
+        /* height: 100%; */
+        width: 82%;
+        gap: 8px;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 767px) {
 
     .fs-64-semibold {
         font-size: 36px;
@@ -1234,28 +1255,16 @@ header .banner .container-wrapper .banner-body-container .scaner {
     }
 
     .download-message {
-        height: 308px;
+        height: auto;
+        margin: 20px 0px;
     }
 
 }
 
-@media (max-width: 434px) {
-    .fs-64-semibold {
-        font-size: 32px;
-        font-weight: 600;
-    }
-
-    .fs-40 {
-        font-size: 26px;
-    }
-
-    header .banner {
-        height: 350px;
-    }
-
-    header .banner .container-wrapper .banner-body-container {
-        /* height: 100%; */
-        width: 82%;
-        gap: 8px;
+@media (min-width: 350px) and (max-width: 400px) {
+    .What-we-do-banner {
+        width: 100%;
+        height: auto;
     }
 }
+
